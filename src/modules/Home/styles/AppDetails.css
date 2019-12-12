@@ -1,0 +1,45 @@
+/* .avatar-detail-card {
+    width : 18rem;
+} */
+
+.avatar-item {
+    padding: .25rem 1.25rem !important;
+    background-color: #3c3a3a !important;
+}
+.centered {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 42%;
+    left: 0%;
+    width: 100%;
+    opacity: 0.7;
+}
+.card-body {
+    padding: 0rem !important;
+    padding-left: .75rem !important;
+}
+
+
+.avatar-item span:first-of-type {
+    color: #dcd3d3;
+}
+.avatar-item span:nth-child(2) {
+    color: orange;
+    float:right;
+  }
+
+  .avatar-detail-card {
+      min-height: 430px;
+  }
+  
+  .app-avatar-list {
+      background-color: black;
+  }
+
+.card-img-top {
+    height: 240px;
+}
+.dropdown {
+    text-align: end;
+}
