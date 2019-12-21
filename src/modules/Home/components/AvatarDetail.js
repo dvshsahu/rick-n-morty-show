@@ -4,7 +4,7 @@ const AvatarDetail = ({Avatar}) => {
     return(
         <Fragment>
           
-                <div className="col-3 my-2">
+                <div className="col-md-3 col-6 my-2">
                     <div className="card avatar-detail-card" >
                     <img className="card-img-top" src={Avatar.image} alt="Card image cap" />
                     <div className="card-body centered py-2">

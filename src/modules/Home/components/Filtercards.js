@@ -14,6 +14,7 @@ class FilterCards extends Component {
     render() {
         return (
             <Fragment>
+                 <div>  SELECTED FILTERS</div>
                 {
                     this.props.selectedFilter.map((filter, index) =>
                         <button key={index} className="btn btn-secondary m-2">{filter} <span onClick={(e) => this.handleClick(filter)}> X</span></button>

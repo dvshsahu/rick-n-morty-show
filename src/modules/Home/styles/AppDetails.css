@@ -31,6 +31,7 @@
 
   .avatar-detail-card {
       min-height: 430px;
+      background-color: #3c3a3a !important;
   }
   
   .app-avatar-list {
@@ -43,3 +44,4 @@
 .dropdown {
     text-align: end;
 }
+

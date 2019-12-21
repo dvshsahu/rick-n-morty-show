@@ -23,11 +23,11 @@ class AvatarList extends Component {
     return (
       <Fragment>
         <div className="row mx-0">
-          <div className="col-1 px-0">Filters
+          <div className="col-md-1 col-12 px-0">Filters
                 <AvatarFilter />
 
           </div>
-          <div className="col-11">
+          <div className="col-md-11 col-12">
           <div>
           
           <FilterCards />

@@ -30,7 +30,8 @@ const AvatarReducer = (state = initialState, action) => {
             avatarList = action.payload.val.length === 0 ? avatarList :
                 avatarList.filter((avatar) =>
                     (action.payload.val.includes(avatar.species) ||
-                        action.payload.val.includes(avatar.gender))
+                        action.payload.val.includes(avatar.gender)) || 
+                        action.payload.val.includes(avatar.origin.name.split(' ')[0])
                 );
 
 
